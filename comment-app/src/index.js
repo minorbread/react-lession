@@ -8,11 +8,11 @@
 // registerServiceWorker();
 
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import CommentApp from './CommentApp'
 import './index.css'
 
-ReactDOM.render() {
+ReactDOM.render( 
   <CommentApp />,
   document.getElementById('root')
-}
+)
