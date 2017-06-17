@@ -9,13 +9,13 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import CommentApp from './CommentApp'
-// import './index.css'
+import CommentApp from './CommentApp'
+import './index.css'
 // import PercentageApp from './PercentageApp'
 import Index from './Index'
 
 
 ReactDOM.render( 
-  <Index />,
+  <CommentApp />,
   document.getElementById('root')
 )
