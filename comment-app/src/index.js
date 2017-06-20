@@ -13,6 +13,7 @@ import CommentApp from './CommentApp'
 import './index.css'
 // import PercentageApp from './PercentageApp'
 import Index from './Index'
+// import Context from './Context'
 
 
 ReactDOM.render( 
