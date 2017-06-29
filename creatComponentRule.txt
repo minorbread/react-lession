@@ -18,3 +18,9 @@ render*开头的方法，有时候 render() 方法里面的内容会分开到不
 render() 方法。
 如果所有的组件都按这种顺序来编写，那么维护起来就会方便很多，多人协作的时候别人理解代码也会一目了然。
 
+个人写 reducer 文件的习惯，仅供参考：
+
+定义 action types
+编写 reducer
+跟这个 reducer 相关的 action creators
+
