@@ -12,8 +12,9 @@ import MulitSelect from './MulitSelect';
 import UnCtrl from './UnCtrl';
 import List from './List';
 import Lists from './Lists';
+import Switch from './Switch';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<Lists />, document.getElementById('root'));
+ReactDOM.render(<Switch />, document.getElementById('root'));
 registerServiceWorker();
