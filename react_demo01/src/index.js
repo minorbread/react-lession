@@ -13,8 +13,9 @@ import UnCtrl from './UnCtrl';
 import List from './List';
 import Lists from './Lists';
 import Switch from './Switch';
+import CommentList from './CommentList';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<Switch />, document.getElementById('root'));
+ReactDOM.render(<CommentList promise={fetch('./api/response.json')} />, document.getElementById('root'));
 registerServiceWorker();

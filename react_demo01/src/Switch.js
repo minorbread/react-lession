@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-// import { spring, Motion } from 'react-motion'
+/*import React, { Component } from 'react'
+import { spring, Motion } from 'react-motion'
 
 class Switch extends Component {
   constructor(props) {
@@ -37,3 +37,4 @@ class Switch extends Component {
 }
 
 export default Switch
+*/
